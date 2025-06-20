@@ -1,39 +1,46 @@
-# Advanced Usage
+```markdown
+## ✨ Key Features
 
-We provide a number of parameters so that the BrainGB model can be customized. The details of each parameter are described below.
+| UI / UX                         | Details                                                                                       |
+| ------------------------------ | --------------------------------------------------------------------------------------------- |
+| **Drag & Drop NIfTI**          | Upload `.nii` / `.nii.gz` files via drag-&-drop—stored under `uploads/<8-char-id>/` for easy cleanup. |
+| **Smart Reruns**               | Uploaded data persists across Streamlit reruns—viewers and cards never vanish on refresh.     |
+| **Collapsible Output Cards**   | Keep your workspace tidy—expand only the results you need.                                     |
+| **2D ↔ 3D Switch**             | Toggle between a fast slice-slider or a Plotly volume render (with quality slider & colour map). |
+| **Adjacency Exploration**      | Inspect connectivity via heat-map or interactive network graph (edge-density slider).          |
+| **Download Everywhere**        | Export NIfTI (`.nii.gz`) or raw PyTorch tensors (`.pt`) at each stage.                         |
+| **Sidebar “⚙️ Pipeline steps”** | Tick/untick Extraction, Registration, Parcellation, Network Analysis, etc., before running.   |
+| **Natural-Language Controller**| Commands like `skip segmentation`, `reset steps`, `enable classification`.                     |
+| **Chat Assistant**             | GPT-4o-mini by default—answers neuroscience queries via RAG and can invoke `run_unibrain_inference`. |
 
-## Message Passing Mechanisms
-In `models.gcn`, BrainGB provides the base class `MPGCNConv` and different message vector designs including:
-| Message Passing Mechanisms   | Option Name          |
-| ------------------------------------ | ------------------- |
-| Edge Weighted | `weighted_sum`  |
-| Bin Concat        | `bin_concate` |
-| Edge Weight Concat | `edge_weight_concate`  |
-| Node Edge Concat        | `edge_node_concate` |
-| Node Concat        | `node_concate` |
+---
 
-To adjust the message passing schemes, simply set the input parameter `model_name` as `gcn` and chose an option name for the parameter `gcn_mp_type`.
+## 🏗️ Project Layout
 
-## Attention-Enhanced Message Passing
-In `models.gat`, BrainGB provides the base class `MPGATConv` and different versions of attention-enhanced message passing designs including:
-| Message Passing Mechanisms                    | Option Name          |
-| ------------------------------------ | ------------------- |
-| Attention Weighted | `attention_weighted`  |
-| Edge Weighted w/ Attn        | `attention_edge_weighted` |
-| Attention Edge Sum | `sum_attention_edge`  |
-| Node Edge Concat w/ Attn        | `edge_node_concate` |
-| Node Concat w/ Attn        | `node_concate` |
+```
 
-Note that some of these options are corresponding attention enhanced version of the message passing mechanism designs. Please refer to our paper for more details.
+UniBrainAssistant/
+├─ app.py                      ← Streamlit entrypoint (self-contained)
+├─ assets/
+│  ├─ tpl\_img.npy              ← template volume
+│  ├─ tpl\_gm.npy               ← template gray-matter mask
+│  └─ tpl\_aal.npy              ← template AAL labels
+├─ model.py                    ← UniBrain graph-neural network module
+├─ prompts/
+│  └─ unibrain\_system\_prompt.md
+├─ unibrain.pdf                ← paper for RAG retrieval
+└─ extra\_knowledge.txt         ← supplementary text corpus for RAG
 
-To adjust the attention-enhanced message passing schemes, simply set the input parameter `model_name` as `gat` and chose an option name for the parameter `gat_mp_type`.
+```
 
-## Pooling Strategies
-The pooling strategy is controlled by setting the `self.pooling` in the chosen model. Specifically, BrainGB implements the following three basic pooling strategies:
-| Pooling Strategies                    | Option Name          |
-| ------------------------------------ | ------------------- |
-| Mean Pooling | `mean`  |
-| Sum Pooling        | `sum` |
-| Concat Pooling | `concat`  |
+---
 
-To adjust the pooling strategies, simply set the chosen option name for the input parameter `pooling`.
+## 🔬 Method Structure
+
+<p align="center">
+  <img src="./images/unibrainstructure.png" alt="End-to-end processing pipeline" width="100%"/>
+</p>
+
+> **No UniBrain weights?**  
+> If `assets/unibrain.pth` is missing, the app loads a dummy stub so you can still explore the UI.
+```

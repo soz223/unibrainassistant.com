@@ -33,12 +33,12 @@ const Models = () => {
         >
             <Grid container spacing={1} justifyContent={'center'}>
                 <ModelDownloadCard
-                    name={'HIV'}
+                    name={'Dummy Model for Testing'}
                     link={'https://firebasestorage.googleapis.com/v0/b/braingb-d2fc0.appspot.com/o/BrainGB_gat_HIV.pt?alt=media&token=3eb03a2b-0204-4494-8cc3-d9f1cba7fb5b'}
                     image={'/HIV-Sample.png'}
                 />
 
-                <ModelDownloadCard
+                {/* <ModelDownloadCard
                     name={'PNC'}
                     link={'https://firebasestorage.googleapis.com/v0/b/braingb-d2fc0.appspot.com/o/BrainGB_gcn_PNC.pt?alt=media&token=c85e66db-6203-4790-837b-e4a1b50882a4'}
                     image={'/nitrc-logo.png'}
@@ -54,7 +54,7 @@ const Models = () => {
                     name={'ABCD'}
                     link={'https://firebasestorage.googleapis.com/v0/b/braingb-d2fc0.appspot.com/o/BrainGB_gat_ABCD.pt?alt=media&token=e26b33de-15c7-4071-8acc-9b8fc7e4cdb7'}
                     image={'/logo_abcd_r_small.jpg'}
-                />
+                /> */}
             </Grid>
         </Grow>
     </Container>
