@@ -6,7 +6,7 @@ The Autism Brain Imaging Data Exchange (ABIDE) is a collaborative project across
 
 &nbsp;
 
-![ADHD-200](images/ADHD200_logo.png '#float=right;width=150px;')
+![ADHD-200](images/ADHD200_logo.png '#float=right;width=250px;')
 
 ## [ADHD-200 Global Competition Dataset](https://fcon_1000.projects.nitrc.org/indi/adhd200/)
 
