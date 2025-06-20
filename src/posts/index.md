@@ -1,35 +1,31 @@
-# BrainGB: A Benchmark for Brain Network Analysis with Graph Neural Networks
+# UniBrain: A Unified Model for End-to-End Brain Imaging Analysis
 
-BrainGB is a *unified*, *modular*, *scalable*, and *reproducible* framework established for brain network analysis with GNNs. It is designed to enable fair evaluation with accessible datasets, standard settings, and baselines to foster a collaborative environment within computational neuroscience and other related communities. This library is built upon [Pytorch](https://pytorch.org) and [PyTorch Geometric](https://pytorch-geometric.readthedocs.io/en/latest/).
+UniBrain-Assistant is an open-source, browser-based platform that integrates end-to-end deep learning into a fully conversational workflow for structural brain MRI analysis. We integrate UniBrain into an AI agent for fully automated sMRI preprocessing, analysis, and visualization, achieving a “one-click, done quick” protocol. It functions like a chatbot to invoke expert knowledge to facilitate interactive pipelines.
 
-Visit our BrainGB GitHub repository at [https://github.com/HennyJie/BrainGB](https://github.com/HennyJie/BrainGB).
+Visit our UniBrain-Assistant GitHub repository at [https://github.com/soz223/UniBrainAssistant](https://github.com/soz223/UniBrainAssistant).
 
+# Recent Papers
 
-# Our Recent Papers on GNN-based Brain Connectome Analysis using BrainGB
+Here's a list of publications from our research group related to UniBrain:
 
-Here's a list of publications from our research group related to Brain Network Analysis:
-
-
-| Year | Title                                                                                                             | Venue      | Code                                                                                           | Paper                                                                                                 |
-|------|-------------------------------------------------------------------------------------------------------------------|------------|------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|
-| 2024 | FedBrain: Federated Training of Graph Neural Networks for Connectome-based Brain Imaging Analysis                                      | PSB 2024   | [Link](mailto:owen.yang@duke.edu)                                     | [Link](mailto:owen.yang@duke.edu)                                                        |
-                                             | [Link](https://ieeexplore.ieee.org/abstract/document/9933896)                                                             |
+| Year | Title                                                                                | Venue                          | Code                                                                                         | Paper                                                                                       |
+|------|--------------------------------------------------------------------------------------|--------------------------------|----------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|
+| 2025 | End-to-End Deep Learning for Structural Brain Imaging: A Unified Framework           | arXiv preprint arXiv:2502.18523 | [GitHub](https://github.com/soz223/UniBrainAssistant)                                        | [arXiv](https://arxiv.org/abs/2502.18523)                                                   |
 
 These publications offer a range of approaches and tools for those interested in Brain Network Analysis.
 
 # Contribution
 
-We welcome any form of contribution from the community. Please feel free to [email us](mailto:j.carlyang@emory.edu).
+We welcome any form of contribution from the community. Please feel free to [email us](mailto:lih319@lehigh.edu).
 
 # Citation
 
-Please cite [our paper](https://cs.emory.edu/~jyang71/files/braingb.pdf) if you find our platform useful for your work:
+Please cite [our paper](https://arxiv.org/abs/2502.18523) if you find our platform useful for your work:
 
 ```text
-@article{cui2022braingb,
-author = {Cui, Hejie and Dai, Wei and Zhu, Yanqiao and Kan, Xuan and Chen Gu, Antonio Aodong and Lukemire, Joshua and Zhan, Liang and He, Lifang and Guo, Ying and Yang, Carl},
-title = {{BrainGB: A Benchmark for Brain Network Analysis with Graph Neural Networks}},
-journal={IEEE Transactions on Medical Imaging (TMI)},
-year = {2022}
+@article{su2025end,
+  title={End-to-End Deep Learning for Structural Brain Imaging: A Unified Framework},
+  author={Su, Yao and Han, Keqi and Zeng, Mingjie and Sun, Lichao and Zhan, Liang and Yang, Carl and He, Lifang and Kong, Xiangnan},
+  journal={arXiv preprint arXiv:2502.18523},
+  year={2025}
 }
-```
