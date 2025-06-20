@@ -39,10 +39,7 @@ const links = [
     href: '/models',
     label: 'Models',
   },
-  // {
-  //   href: '/leaderboards',
-  //   label: 'Leaderboards',
-  // },
+
   {
     href: '/team',
     label: 'Team',
@@ -52,6 +49,10 @@ const links = [
   //   href: 'https://brainnn.us',
   //   label: 'Workshop',
   // }
+    {
+    href: '/leaderboards',
+    label: 'Demo',
+  },
 ]
 
 function MainMenu() {
