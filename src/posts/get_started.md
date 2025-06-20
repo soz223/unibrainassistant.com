@@ -86,7 +86,9 @@ See `requirements.txt` for exact version pins.
 5. Chat with your data right in the browser:
 
    ```
-   ❯ skip segmentation and do the whole preprocessing
-   ❯ how does parcellation work?
+   ❯ What can you do?
+   ❯ Run the whole pipeline on the uploaded image
+   ❯ Skip segmentation and do the whole preprocessing
+   ❯ How does parcellation work?
    ```
 
