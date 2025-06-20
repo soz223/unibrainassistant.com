@@ -24,6 +24,7 @@ const DemoPage = () => {
       />
 
       <Typography variant="h5" color="textSecondary" align="center">
+        Still Building...
         Below is a demo video of our internal version, including how to upload files, what the system can do, and how to trigger processing.
       </Typography>
 
