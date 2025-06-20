@@ -1,3 +1,8 @@
+![UniBrain Pipeline Structure](./images/unibrainstructure.png)
+
+A schematic overview of the UniBrain processing pipeline, illustrating the end-to-end workflow from input neuroimaging data (NIfTI/DICOM) through segmentation, registration, parcellation, network analysis, and final interactive chat-based querying.
+
+
 ## 🚀 Quick Start (Self-Deployment)
 
 ```bash
