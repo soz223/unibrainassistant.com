@@ -1,4 +1,3 @@
-```markdown
 ## ✨ Key Features
 
 | UI / UX                         | Details                                                                                       |
@@ -38,9 +37,8 @@ UniBrainAssistant/
 ## 🔬 Method Structure
 
 <p align="center">
-  <img src="./images/unibrainstructure.png" alt="End-to-end processing pipeline" width="100%"/>
+  <img src="../images/unibrainstructure.png" alt="End-to-end processing pipeline" width="100%"/>
 </p>
 
 > **No UniBrain weights?**  
 > If `assets/unibrain.pth` is missing, the app loads a dummy stub so you can still explore the UI.
-```

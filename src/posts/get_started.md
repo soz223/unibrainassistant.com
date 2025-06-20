@@ -1,7 +1,23 @@
-![UniBrain Pipeline Structure](./images/unibrainstructure.png)
+### 🚀 Try Me – One Click, Done Quick!
+
+You can drop in a NIfTI file, watch every preprocessing step unfold in real time, explore the resulting connectome interactively, and ask questions in plain English or any natural language — all without leaving your web browser.
+
+It pairs Streamlit’s reactive UI with LangChain’s tool-calling so you can **see**, **tweak**, and **interrogate** each stage of the pipeline:
+
+- skull-stripping → affine registration → tissue segmentation → AAL parcellation → graph construction → disease classification  
+- fully **interactive**: 2D slice viewer, 3D Plotly volume, heat-map / graph visualizations, one-click downloads  
+- **pipeline orchestration by natural-language** – e.g. `run the pipeline without segmentation`, `enable network`  
+- **RAG-powered Q & A** over both your outputs **and** the UniBrain paper itself
+
+### ⏳ We are working hard to enhance the tool, and a new version will be released soon.
+
+---
+
+![UniBrain Pipeline Structure](../images/unibrainstructure.png)
 
 A schematic overview of the UniBrain processing pipeline, illustrating the end-to-end workflow from input neuroimaging data (NIfTI/DICOM) through segmentation, registration, parcellation, network analysis, and final interactive chat-based querying.
 
+---
 
 ## 🚀 Quick Start (Self-Deployment)
 
@@ -61,9 +77,6 @@ See `requirements.txt` for exact version pins.
 
 ---
 
-
----
-
 ## 🌐 Try the Demo Website
 
 1. Visit the live demo at [Ongoing Website](https://unibrain-assistant.demo)
@@ -75,5 +88,5 @@ See `requirements.txt` for exact version pins.
    ```
    ❯ skip segmentation and do the whole preprocessing
    ❯ how does parcellation work?
-   ❯ 
    ```
+
