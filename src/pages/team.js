@@ -34,6 +34,18 @@ const TeamPage = () => {
             position="Emory University"
             link="https://www.cs.emory.edu/~jyang71/"
           />
+          <PersonCard
+            name="Liang Zhan"
+            photo="/people/LiangZhan.jpeg"
+            position="University of Pittsburgh"
+            link={'https://www.engineeringx.pitt.edu/People/Faculty/Profiles/Liang-Zhan/'}
+          />
+          <PersonCard
+            name="Xiangnan Kong"
+            photo="/people/XiangnanKong.jpg"
+            position="WPI"
+            link="https://www.wpi.edu/people/faculty/xkong"
+          />
         </Grid>
       </Grow>
 
