@@ -25,11 +25,11 @@ Embeds and stores extended conversation history in the FAISS vector DB for conte
 Collects four user feedback signals: `like`, `dislike`, `reading_time`, `regenerate`.  
 Each turn builds a preference vector \(p_t\), and updates parameters \(\theta\) via:
 
-\[
+$$
 \theta \leftarrow \theta + \eta\,\nabla_{\theta}\,\mathbb{E}_{t}[\,r(p_t)\,], 
 \quad
 r(p_t)=\alpha\,\textsf{like}-\beta\,\textsf{dislike}+\gamma\log(1+\textsf{reading\_time})-\delta\,\textsf{regenerate}.
-\]
+$$
 
 ---
 
