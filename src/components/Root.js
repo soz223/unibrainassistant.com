@@ -31,26 +31,26 @@ const links = [
     href: '/datasets',
     label: 'Datasets',
   },
-  {
-    href: '/preprocessing',
-    label: 'Preprocessing',
-  },
+  // {
+  //   href: '/preprocessing',
+  //   label: 'Preprocessing',
+  // },
   {
     href: '/models',
     label: 'Models',
   },
-  {
-    href: '/leaderboards',
-    label: 'Leaderboards',
-  },
+  // {
+  //   href: '/leaderboards',
+  //   label: 'Leaderboards',
+  // },
   {
     href: '/team',
     label: 'Team',
   },
-  {
-    href: 'https://brainnn.us',
-    label: 'Workshop',
-  }
+  // {
+  //   href: 'https://brainnn.us',
+  //   label: 'Workshop',
+  // }
 ]
 
 function MainMenu() {
@@ -160,7 +160,7 @@ export const Root = ({ element }) => {
           >
             <Grid item>
               <Typography variant="caption" textAlign="center">
-                Brain Network 2021 | Powered by Gatsby
+                UniBrain Assistant 2025 | Powered by Gatsby
               </Typography>
             </Grid>
           </Grid>
