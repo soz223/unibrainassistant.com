@@ -8,7 +8,9 @@ import {
 import { graphql } from 'gatsby'
 import Typewriter from "typewriter-effect";
 
-import headerImage from '../images/header-image.svg'
+// import headerImage from '../images/header-image.svg'
+
+import headerImage from '../images/unibrain-header.png'
 
 // const headerHeight = '500px'
 
@@ -65,7 +67,7 @@ const IndexPage = ({ data }) => {
           }}>
             <Typewriter
                 options={{
-                  strings: 'BrainGB',
+                  strings: 'UniBrain',
                   autoStart: true,
                   loop: false,
                 }}
