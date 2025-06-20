@@ -75,6 +75,8 @@ See `requirements.txt` for exact version pins.
 1. **Regex fast-path**
 2. if unresolved → **GPT-4o-mini** (`CMD_SYS_PROMPT`) → JSON command
 
+
+
 ---
 
 ## 🌐 Try the Demo Website
@@ -92,3 +94,14 @@ See `requirements.txt` for exact version pins.
    ❯ How does parcellation work?
    ```
 
+## 🖼️ Demo
+
+<p align="center">
+<img src="./images/demo1.png" alt="Upload & preprocessing" width="100%"/>
+<img src="./images/demo2.png" alt="Interactive slice viewer" width="100%"/>
+<img src="./images/demo3.png" alt="3‑D volumetric viewer" width="100%"/>
+</p>
+<p align="center">
+<img src="./images/demo4.png" alt="Graph visualisation" width="100%"/>
+<img src="./images/demo5.png" alt="Chat‑driven control" width="100%"/>
+</p>
