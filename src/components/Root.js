@@ -47,6 +47,7 @@ const links = [
     href: '/team',
     label: 'Team',
   },
+  
   // {
   //   href: 'https://brainnn.us',
   //   label: 'Workshop',
@@ -123,7 +124,7 @@ export const Root = ({ element }) => {
           <link rel="stylesheet"
                 href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
           <meta name="viewport" content="initial-scale=1, width=device-width"/>
-          <title>BrainGB</title>
+          <title>UniBrainAssistant</title>
         </Helmet>
         <ScopedCssBaseline>
           <CssBaseline/>
@@ -140,7 +141,7 @@ export const Root = ({ element }) => {
                   }
                 }>
                   <CSLogoIcon width={50} height={50}/>
-                  <p style={{color: 'white', marginBottom: '0rem', fontFamily: 'Courier New', fontWeight: 'bolder'}}>BrainGB</p>
+                  <p style={{color: 'white', marginBottom: '0rem', fontFamily: 'Courier New', fontWeight: 'bolder'}}>UniBrainAssistant</p>
                 </Container>
               </IconButton>
               <Typography sx={{ flexGrow: 1 }}/>
