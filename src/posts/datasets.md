@@ -14,7 +14,12 @@ The ADHD-200 dataset is a publicly available neuroimaging resource designed to f
 
 ---
 
-## Future Might Used Datasets
+&nbsp;  
+&nbsp;  
+&nbsp;  
+
+## Prospective Neuroimaging Datasets for Future Integration
+
 
 ![ABCD](images/logo_abcd_r_small.jpg '#float=right;width=250px;')
 
