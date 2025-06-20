@@ -68,7 +68,7 @@ See `requirements.txt` for exact version pins.
 5. Chat with your data right in the browser:
 
    ```
-   ❯ skip segmentation
+   ❯ skip segmentation and do the whole preprocessing
    ❯ how does parcellation work?
-   ❯ show only the brain network results
+   ❯ 
    ```
