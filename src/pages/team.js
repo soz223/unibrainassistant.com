@@ -58,7 +58,7 @@ const TeamPage = () => {
             name="Songlin Zhao"
             photo="/people/SonglinZhao.jpg"
             position="Lehigh University"
-            link="https://www.google.com/search?q=Songlin+Zhao"
+            link="https://www.songlin.my/"
           />
           <PersonCard
             name="Yurou Dai"
