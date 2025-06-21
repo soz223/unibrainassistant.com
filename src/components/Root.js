@@ -44,12 +44,12 @@ const links = [
     href: '/team',
     label: 'Team',
   },
-  
+
   // {
   //   href: 'https://brainnn.us',
   //   label: 'Workshop',
   // }
-    {
+  {
     href: '/leaderboards',
     label: 'Demo',
   },
@@ -61,9 +61,9 @@ function MainMenu() {
 
   const toggleDrawer = (open) => (event) => {
     if (
-        event &&
-        event.type === 'keydown' &&
-        (event.key === 'Tab' || event.key === 'Shift')
+      event &&
+      event.type === 'keydown' &&
+      (event.key === 'Tab' || event.key === 'Shift')
     ) {
       return;
     }
@@ -74,41 +74,41 @@ function MainMenu() {
 
   if (!isSmallScreen) {
     return (
-        links.map(({ href, label }) => (
-            <Button color="inherit" href={href}>
-              {label}
-            </Button>
-    )))
+      links.map(({ href, label }) => (
+        <Button color="inherit" href={href}>
+          {label}
+        </Button>
+      )))
   } else {
     return (
-        <React.Fragment>
-          <IconButton
-              color="inherit"
-              aria-label="open drawer"
-              onClick={toggleDrawer(true)}
-          >
-            <MenuIcon/>
-          </IconButton>
-          <SwipeableDrawer
-              anchor={'right'}
-              open={open}
-              onClose={toggleDrawer(false)}
-              onOpen={toggleDrawer(true)}
-          >
-            <List>
-              {links.map(({ href, label }) => (
-                  <a href={href} style={{ color: '#696969'}}>
-                    <ListItem button key={label}>
-                      {/*<ListItemIcon>*/}
-                      {/*  {index % 2 === 0 ? <InboxIcon /> : <MailIcon />}*/}
-                      {/*</ListItemIcon>*/}
-                      <ListItemText primary={label} />
-                    </ListItem>
-                  </a>
-              ))}
-            </List>
-          </SwipeableDrawer>
-        </React.Fragment>
+      <React.Fragment>
+        <IconButton
+          color="inherit"
+          aria-label="open drawer"
+          onClick={toggleDrawer(true)}
+        >
+          <MenuIcon />
+        </IconButton>
+        <SwipeableDrawer
+          anchor={'right'}
+          open={open}
+          onClose={toggleDrawer(false)}
+          onOpen={toggleDrawer(true)}
+        >
+          <List>
+            {links.map(({ href, label }) => (
+              <a href={href} style={{ color: '#696969' }}>
+                <ListItem button key={label}>
+                  {/*<ListItemIcon>*/}
+                  {/*  {index % 2 === 0 ? <InboxIcon /> : <MailIcon />}*/}
+                  {/*</ListItemIcon>*/}
+                  <ListItemText primary={label} />
+                </ListItem>
+              </a>
+            ))}
+          </List>
+        </SwipeableDrawer>
+      </React.Fragment>
     )
   }
 }
@@ -123,34 +123,38 @@ export const Root = ({ element }) => {
             href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
           />
           <link rel="stylesheet"
-                href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
-          <meta name="viewport" content="initial-scale=1, width=device-width"/>
+            href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+          <meta name="viewport" content="initial-scale=1, width=device-width" />
           <title>UniBrainAssistant</title>
         </Helmet>
         <ScopedCssBaseline>
-          <CssBaseline/>
-          <AppBar component="nav" position="sticky">
+          <CssBaseline />
+          <AppBar
+            component="nav"
+            position="sticky"
+            sx={{ backgroundColor: '#616161' }}  // new color grey
+          >
             <Toolbar>
               <Grid container alignItems="center">
-              <IconButton href="/" style={{ borderRadius: 2}}>
-                {/* Horizontally center align */}
-                <Container style={
-                  {
-                    alignItems: 'center',
-                    display: 'flex',
-                    flexDirection: 'row'
-                  }
-                }>
-                  <CSLogoIcon width={50} height={50}/>
-                  <p style={{color: 'white', marginBottom: '0rem', fontFamily: 'Courier New', fontWeight: 'bolder'}}>UniBrainAssistant</p>
-                </Container>
-              </IconButton>
-              <Typography sx={{ flexGrow: 1 }}/>
-              <MainMenu/>
+                <IconButton href="/" style={{ borderRadius: 2 }}>
+                  {/* Horizontally center align */}
+                  <Container style={
+                    {
+                      alignItems: 'center',
+                      display: 'flex',
+                      flexDirection: 'row'
+                    }
+                  }>
+                    <CSLogoIcon width={50} height={50} />
+                    <p style={{ color: 'white', marginBottom: '0rem', fontFamily: 'Courier New', fontWeight: 'bolder' }}>UniBrainAssistant</p>
+                  </Container>
+                </IconButton>
+                <Typography sx={{ flexGrow: 1 }} />
+                <MainMenu />
               </Grid>
             </Toolbar>
           </AppBar>
-          <Toolbar/>
+          <Toolbar />
           <Box component="main">
             {element}
           </Box>
