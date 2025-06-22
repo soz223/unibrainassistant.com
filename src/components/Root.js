@@ -132,7 +132,9 @@ export const Root = ({ element }) => {
           <AppBar
             component="nav"
             position="sticky"
-            sx={{ backgroundColor: '#616161' }}  // new color grey
+            // sx={{ backgroundColor: '#616161' }}  // new color grey
+            sx={{ backgroundColor: '#6C63FF' }}  // new color purple
+
           >
             <Toolbar>
               <Grid container alignItems="center">
