@@ -62,7 +62,8 @@ const IndexPage = ({ data }) => {
             fontFamily: 'Courier New',
             fontWeight: 'bolder',
             fontSize: '100px',
-            color: '#1e376d',
+            // color: '#1e376d', // dark blue
+            color: '#673AB7', // dark purple
             alignItems: 'flex-start',
           }}>
             <Typewriter
