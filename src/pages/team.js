@@ -58,7 +58,7 @@ const TeamPage = () => {
             name="Yao Su"
             photo="/people/YaoSu.jpg"
             position="WPI"
-            link="https://www.google.com/search?q=Yao+Su"
+            link="https://www.linkedin.com/in/yao-su-b3a056247"
           />
           <PersonCard
             name="Keqi Han"
