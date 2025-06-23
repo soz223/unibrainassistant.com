@@ -43,7 +43,7 @@ const TeamPage = () => {
           <PersonCard
             name="Xiangnan Kong"
             photo="/people/XiangnanKong.jpg"
-            position="WPI"
+            position="Worcester Polytechnic Institute"
             link="https://www.wpi.edu/people/faculty/xkong"
           />
         </Grid>
@@ -57,7 +57,7 @@ const TeamPage = () => {
           <PersonCard
             name="Yao Su"
             photo="/people/YaoSu.jpg"
-            position="WPI"
+            position="Worcester Polytechnic Institute"
             link="https://www.linkedin.com/in/yao-su-b3a056247"
           />
           <PersonCard
@@ -81,7 +81,7 @@ const TeamPage = () => {
           <PersonCard
             name="Mingjie Zeng"
             photo="/people/MingjieZeng.jpg"
-            position="WPI"
+            position="Worcester Polytechnic Institute"
             link="https://www.google.com/search?q=Mingjie+Zeng"
           />
         </Grid>
