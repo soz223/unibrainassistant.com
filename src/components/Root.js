@@ -51,8 +51,12 @@ const links = [
   // }
   {
     href: '/leaderboards',
-    label: 'Demo',
+    label: 'Demo Video',
   },
+    {
+    href: 'http://128.180.121.111:8501/',
+    label: 'Demo',
+  }
 ]
 
 function MainMenu() {
