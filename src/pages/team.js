@@ -29,6 +29,12 @@ const TeamPage = () => {
             link="https://engineering.lehigh.edu/faculty/lifang-he"
           />
           <PersonCard
+            name="Xiangnan Kong"
+            photo="/people/XiangnanKong.jpg"
+            position="Worcester Polytechnic Institute"
+            link="https://www.wpi.edu/people/faculty/xkong"
+          />
+          <PersonCard
             name="Carl Yang"
             photo="/people/CarlYang.jpg"
             position="Emory University"
@@ -40,12 +46,7 @@ const TeamPage = () => {
             position="University of Pittsburgh"
             link={'https://www.engineeringx.pitt.edu/People/Faculty/Profiles/Liang-Zhan/'}
           />
-          <PersonCard
-            name="Xiangnan Kong"
-            photo="/people/XiangnanKong.jpg"
-            position="Worcester Polytechnic Institute"
-            link="https://www.wpi.edu/people/faculty/xkong"
-          />
+
         </Grid>
       </Grow>
 
@@ -55,10 +56,10 @@ const TeamPage = () => {
       <Grow in={true} style={{ transformOrigin: '0 0 0' }} {...{ timeout: 1000 }}>
         <Grid container spacing={1} justifyContent='center' paddingBottom='20px'>
           <PersonCard
-            name="Yao Su"
-            photo="/people/YaoSu.jpg"
-            position="Worcester Polytechnic Institute"
-            link="https://www.linkedin.com/in/yao-su-b3a056247"
+            name="Yurou Dai"
+            photo="/people/YurouDai.jpg"
+            position="Lehigh University"
+            link="https://www.google.com/search?q=Yurou+Dai"
           />
           <PersonCard
             name="Keqi Han"
@@ -67,16 +68,10 @@ const TeamPage = () => {
             link="https://www.google.com/search?q=Keqi+Han"
           />
           <PersonCard
-            name="Songlin Zhao"
-            photo="/people/SonglinZhao.jpg"
-            position="Lehigh University"
-            link="https://www.songlin.my/"
-          />
-          <PersonCard
-            name="Yurou Dai"
-            photo="/people/YurouDai.jpg"
-            position="Lehigh University"
-            link="https://www.google.com/search?q=Yurou+Dai"
+            name="Yao Su"
+            photo="/people/YaoSu.jpg"
+            position="Worcester Polytechnic Institute"
+            link="https://www.linkedin.com/in/yao-su-b3a056247"
           />
           <PersonCard
             name="Mingjie Zeng"
@@ -84,6 +79,14 @@ const TeamPage = () => {
             position="Worcester Polytechnic Institute"
             link="https://www.google.com/search?q=Mingjie+Zeng"
           />
+          <PersonCard
+            name="Songlin Zhao"
+            photo="/people/SonglinZhao.jpg"
+            position="Lehigh University"
+            link="https://www.songlin.my/"
+          />
+
+
         </Grid>
       </Grow>
     </Container>
