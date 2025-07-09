@@ -1,4 +1,4 @@
-# Emory Brain Net
+# UniBrain
 
 ## Usage
 
