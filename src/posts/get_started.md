@@ -30,6 +30,8 @@ export OPENAI_API_KEY="sk-..."                         # for LLM chat & RAG
 streamlit run app.py
 ````
 
+add something
+
 Open [http://localhost:8501](http://localhost:8501/) → upload a NIfTI (or DICOM) → pick processing steps → **Run**.
 Then interact with your scan:
 
