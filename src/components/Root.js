@@ -50,7 +50,7 @@ const links = [
   //   label: 'Workshop',
   // }
   {
-    href: '/leaderboards',
+    href: '/demo_video',
     label: 'Demo Video',
   },
     {
