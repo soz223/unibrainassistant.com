@@ -26,7 +26,7 @@ The ADHD-200 dataset is a publicly available neuroimaging resource designed to f
 &nbsp;  
 &nbsp;  
 
-## Prospective Neuroimaging Datasets for Future Integration
+<!-- ## Prospective Neuroimaging Datasets for Future Integration
 
 
 ![ABCD](images/logo_abcd_r_small.jpg '#float=right;width=250px;')
@@ -65,4 +65,4 @@ The Parkinson’s Progression Markers Initiative (PPMI) is a multi-center, longi
 
 ## [Open Access Series of Imaging Studies (OASIS)](https://oasis-brains.org/)
 
-The Open Access Series of Imaging Studies (OASIS) offers diverse neuroimaging datasets to the research community. OASIS-1 is a cross-sectional collection featuring 416 subjects aged 18 to 96, primarily providing T1-weighted MRI scans, with a certain portion diagnosed with Alzheimer's disease. OASIS-2 presents a longitudinal assembly of 150 older adults, delivering multiple T1-weighted MRI sessions and detailing the cognitive trajectories of its participants. OASIS-3 is an extensive compilation from 1,378 participants, which includes varied imaging modalities such as T1w, T2w, and resting-state functional MRI. Lastly, OASIS-4 is a unique clinical cohort of 663 subjects who underwent comprehensive clinical, neuroimaging, and neuropsychometric assessments.
+The Open Access Series of Imaging Studies (OASIS) offers diverse neuroimaging datasets to the research community. OASIS-1 is a cross-sectional collection featuring 416 subjects aged 18 to 96, primarily providing T1-weighted MRI scans, with a certain portion diagnosed with Alzheimer's disease. OASIS-2 presents a longitudinal assembly of 150 older adults, delivering multiple T1-weighted MRI sessions and detailing the cognitive trajectories of its participants. OASIS-3 is an extensive compilation from 1,378 participants, which includes varied imaging modalities such as T1w, T2w, and resting-state functional MRI. Lastly, OASIS-4 is a unique clinical cohort of 663 subjects who underwent comprehensive clinical, neuroimaging, and neuropsychometric assessments. -->
