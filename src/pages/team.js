@@ -55,12 +55,12 @@ const TeamPage = () => {
 
       <Grow in={true} style={{ transformOrigin: '0 0 0' }} {...{ timeout: 1000 }}>
         <Grid container spacing={1} justifyContent='center' paddingBottom='20px'>
-          <PersonCard
+          {/* <PersonCard
             name="Yurou Dai"
             photo="/people/YurouDai.jpg"
             position="Lehigh University"
             link="https://www.google.com/search?q=Yurou+Dai"
-          />
+          /> */}
           <PersonCard
             name="Keqi Han"
             photo="/people/KeqiHan.jpg"
