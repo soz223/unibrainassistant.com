@@ -49,10 +49,10 @@ const links = [
   //   href: 'https://brainnn.us',
   //   label: 'Workshop',
   // }
-  {
-    href: '/demo_video',
-    label: 'Demo Video',
-  },
+  // {
+  //   href: '/demo_video',
+  //   label: 'Demo Video',
+  // },
     {
     href: 'http://128.180.121.111:8501/',
     label: 'Demo',
