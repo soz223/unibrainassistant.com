@@ -72,7 +72,7 @@ UniBrainAssistant/
 ### 🔬 Method Structure
 
 <p align="center">
-  <img src="../images/unibrainstructure.png" alt="End-to-end processing pipeline" width="100%"/>
+  <!-- <img src="../images/unibrainstructure.png" alt="End-to-end processing pipeline" width="100%"/> -->
 </p>
 
 > **No UniBrain weights?**  
