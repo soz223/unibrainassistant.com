@@ -18,18 +18,6 @@ These publications offer a range of approaches and tools for those interested in
 
 We welcome any form of contribution from the community. Please feel free to [email us](mailto:lih319@lehigh.edu).
 
-# Citation
-
-Please cite [our paper](https://arxiv.org/abs/2502.18523) if you find our platform useful for your work:
-
-```text
-@article{su2025end,
-  title={End-to-End Deep Learning for Structural Brain Imaging: A Unified Framework},
-  author={Su, Yao and Han, Keqi and Zeng, Mingjie and Sun, Lichao and Zhan, Liang and Yang, Carl and He, Lifang and Kong, Xiangnan},
-  journal={arXiv preprint arXiv:2502.18523},
-  year={2025}
-}
-
 ## Procedure
 <p align="center">
 <img src="./static/figure_1_v12.png" alt="Architecture" width="100%"/>
@@ -41,3 +29,18 @@ Please cite [our paper](https://arxiv.org/abs/2502.18523) if you find our platfo
 <p align="center">
 <img src="./static/method_v16.png" alt="Methodology" width="100%"/>
 </p>
+
+
+# Citation
+
+Please cite [our paper](https://arxiv.org/abs/2502.18523) if you find our platform useful for your work:
+
+```text
+@article{su2025end,
+  title={End-to-End Deep Learning for Structural Brain Imaging: A Unified Framework},
+  author={Su, Yao and Han, Keqi and Zeng, Mingjie and Sun, Lichao and Zhan, Liang and Yang, Carl and He, Lifang and Kong, Xiangnan},
+  journal={arXiv preprint arXiv:2502.18523},
+  year={2025}
+}
+```
+
