@@ -20,14 +20,14 @@ We welcome any form of contribution from the community. Please feel free to [ema
 
 ## Procedure
 <p align="center">
-<img src="./static/figure_1_v12.png" alt="Architecture" width="100%"/>
+<img src="./images/figure_1_v12.png" alt="Architecture" width="100%"/>
 
 </p>
 
 ## Method
 
 <p align="center">
-<img src="./static/method_v16.png" alt="Methodology" width="100%"/>
+<img src="./images/method_v16.png" alt="Methodology" width="100%"/>
 </p>
 
 
