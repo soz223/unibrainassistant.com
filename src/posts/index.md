@@ -29,3 +29,15 @@ Please cite [our paper](https://arxiv.org/abs/2502.18523) if you find our platfo
   journal={arXiv preprint arXiv:2502.18523},
   year={2025}
 }
+
+## Procedure
+<p align="center">
+<img src="./static/figure_1_v12.png" alt="Architecture" width="100%"/>
+
+</p>
+
+## Method
+
+<p align="center">
+<img src="./static/method_v16.png" alt="Methodology" width="100%"/>
+</p>
