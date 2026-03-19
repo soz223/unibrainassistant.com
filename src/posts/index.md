@@ -18,18 +18,6 @@ These publications offer a range of approaches and tools for those interested in
 
 We welcome any form of contribution from the community. Please feel free to [email us](mailto:lih319@lehigh.edu).
 
-## Procedure
-<p align="center">
-<img src="./images/figure_1_v12.png" alt="Architecture" width="100%"/>
-
-</p>
-
-## Method
-
-<p align="center">
-<img src="./images/method_v16.png" alt="Methodology" width="100%"/>
-</p>
-
 
 # Citation
 
@@ -43,4 +31,17 @@ Please cite [our paper](https://arxiv.org/abs/2502.18523) if you find our platfo
   year={2025}
 }
 ```
+
+
+## Procedure
+<p align="center">
+<img src="./images/figure_1_v12.png" alt="Architecture" width="100%"/>
+
+</p>
+
+## Method
+
+<p align="center">
+<img src="./images/method_v16.png" alt="Methodology" width="100%"/>
+</p>
 
