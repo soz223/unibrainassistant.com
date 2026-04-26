@@ -1,6 +1,6 @@
 # UniBrain: A Unified Model for End-to-End Brain Imaging Processing and Analysis
 
-UniBrain-Assistant is an open-source, browser-based platform that integrates end-to-end deep learning into a fully conversational workflow for structural brain MRI analysis. We integrate UniBrain into an AI agent for fully automated sMRI preprocessing, analysis, and visualization, achieving a “one-click, done quick” protocol. It functions like a chatbot to invoke expert knowledge to facilitate interactive pipelines.
+UniBrain-Assistant is an open-source, browser-based platform that integrates end-to-end deep learning into a fully conversational workflow for structural brain MRI analysis. We integrate UniBrain into an AI agent for fully automated sMRI preprocessing, analysis, and visualization, achieving a "one-click, done quick" protocol. It functions like a chatbot to invoke expert knowledge to facilitate interactive pipelines.
 
 Visit our UniBrain-Assistant GitHub repository at [https://github.com/soz223/UniBrainAssistant](https://github.com/soz223/UniBrainAssistant).
 
