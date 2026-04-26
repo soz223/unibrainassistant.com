@@ -45,7 +45,7 @@ const IndexPage = ({ data }) => {
             justifyContent={'center'}
             display='flex' style={{ backgroundColor: '#f6fafd'}} container>
         <Grid item xs={8} sm={4} style={{ marginTop: "20px", marginBottom: "10px" }}>
-          <img src={headerImage} alt="header" style={{ height: "160px", width: "auto" }}/>
+          <img src={headerImage} alt="header" style={{ height: "260px", width: "auto" }}/>
         </Grid>
         <Grid
           item
@@ -54,14 +54,14 @@ const IndexPage = ({ data }) => {
           alignItems="left"
           display='flex'
           // spacing={3}
-          minWidth="300px"
+          minWidth="400px"
           marginLeft="40px"
           marginBottom="20px"
         >
           <Grid item style={{
             fontFamily: 'Courier New',
             fontWeight: 'bolder',
-            fontSize: '60px',
+            fontSize: '80px',
             // color: '#1e376d', // dark blue
             color: '#673AB7', // dark purple
             alignItems: 'flex-start',
